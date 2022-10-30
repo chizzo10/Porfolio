@@ -1,0 +1,21 @@
+h1{
+    color: white;
+}
+
+label{
+    color: white;
+}
+
+.form-group{
+    margin: 30px;
+}
+
+.row{
+    padding: 30px;
+    border: solid;
+    color: #9E9896;
+    border-radius: 20px;
+    margin: 20px;
+    
+   
+}

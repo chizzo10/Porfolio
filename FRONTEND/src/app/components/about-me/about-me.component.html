@@ -1,0 +1,28 @@
+<div class="row">
+    <h1 class="titulo">
+        {{persona.nombre}} {{persona.apellido}} - {{persona.profesion}}
+    </h1>
+
+
+
+<div class="container pt-5 ">
+    <div class="row seccion">
+        <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
+            <img [src]="persona.img" class="img-fluid rounded-circle" alt="Foto perfil" id="fotodeperfil">
+        </div>
+
+        <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
+            <h2>Perfil Profesional</h2>
+            <p>{{persona.descripcion}}</p>
+        </div>
+
+    </div>
+
+
+    <div class="col-lg-2">
+        <button type="button" class="btn btn-primary" routerLink="/editaboutMe/1" *ngIf="isLogged">
+            AGREGAR
+        </button>
+    </div>
+
+</div>

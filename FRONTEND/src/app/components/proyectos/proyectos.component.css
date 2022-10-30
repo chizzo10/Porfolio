@@ -1,0 +1,23 @@
+.row{
+    padding: 30px;
+    border: solid;
+    color: #9E9896;
+    border-radius: 20px;
+    margin: 20px;
+    
+   
+}
+
+
+
+#contenido{
+    margin-left: 140px;
+}
+
+h2{
+    color: white;
+}
+
+td{
+    color: white;
+}
