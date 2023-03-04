@@ -9,7 +9,7 @@ import { Proyectos } from "../Model/proyectos";
 })
 export class ProyectosService {
 
-  URL = 'https://backendrz.herokuapp.com/proyectos/';
+  URL = 'ideal-kerianne-chizzo10.koyeb.app/proyectos/';
 
   constructor(private httpClient : HttpClient) { }
 
