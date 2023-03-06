@@ -9,7 +9,7 @@ import { Proyectos } from "../Model/proyectos";
 })
 export class ProyectosService {
 
-  URL = 'ideal-kerianne-chizzo10.koyeb.app/proyectos/';
+  URL = 'https://ideal-kerianne-chizzo10.koyeb.app/proyectos/';
 
   constructor(private httpClient : HttpClient) { }
 

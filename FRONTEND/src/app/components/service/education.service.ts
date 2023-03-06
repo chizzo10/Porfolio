@@ -8,7 +8,7 @@ import { Education } from '../Model/education';
   providedIn: 'root'
 })
 export class EducationService {
-  URL = 'ideal-kerianne-chizzo10.koyeb.app/educacion/';
+  URL = 'https://ideal-kerianne-chizzo10.koyeb.app/educacion/';
 
   constructor(private httpClient : HttpClient) { }
 

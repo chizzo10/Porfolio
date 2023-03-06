@@ -7,7 +7,7 @@ import { Experience } from '../Model/experience';
   providedIn: 'root'
 })
 export class ExperienceService {
-  expURL = 'ideal-kerianne-chizzo10.koyeb.app/explab/'
+  expURL = 'https://ideal-kerianne-chizzo10.koyeb.app/explab/'
   
 
   constructor(private httpClient: HttpClient) { }

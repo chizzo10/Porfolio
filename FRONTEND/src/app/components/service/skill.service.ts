@@ -9,7 +9,7 @@ import { Skill } from '../model/skill';
   providedIn: 'root'
 })
 export class SkillService {
-  URL = 'ideal-kerianne-chizzo10.koyeb.app/skill/';
+  URL = 'https://backendrz.herokuapp.com/skill/';
   
   constructor(private httpClient: HttpClient) { }
 
